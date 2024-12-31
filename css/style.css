@@ -1,0 +1,103 @@
+*{
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+body{
+    font-family: 'Nunito';
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+.button{
+    opacity: 0.7;
+    transition: 0.3s;
+}
+
+.button:hover{
+    opacity: 1.0;
+    cursor: pointer;
+}
+
+#navegador{
+    background-color: #D3D3D3;
+    display: flex;
+    padding: 20px;
+    justify-content: space-around;
+}
+
+#contenedor{
+    display: flex;
+    padding: 20px;
+    gap: 10px;
+}
+
+#searchbar{
+    width: 600px;
+    border-radius: 2px;
+}
+
+#login{
+    background-color: #1E90FF;
+    color: white;
+    border: black solid 1px;
+    box-shadow: 10px 10px 5px -8px rgba(0,0,0,0.75);
+    padding: 5px;
+}
+
+.izquierda{
+    flex: 3;
+}
+
+.margen{
+    margin: 10px 0;
+}
+
+.item{
+    border: black solid 2px;
+    border-radius: 5px;
+    padding: 10px;
+    margin: 10px;
+}
+
+.tipo{
+    font-style: italic;
+    color: #808689;
+    
+}
+
+.descripcion{
+font-family: 'Quicksand';
+}
+
+.megusta{
+    background-color: #FFFFCC;
+    border: black solid 1px;
+    border-radius: 2px;
+    display: flex;
+    padding: 5px;
+    gap: 5px;
+    box-shadow: 10px 10px 18px -8px rgba(0,0,0,0.75);
+}
+.derecha{
+    flex: 1.5;
+}
+
+.agregar{
+    border: solid black 2px;
+    border-radius: 5px;
+    padding: 10px;
+    margin: 10px;
+}
+
+#agregardef{
+    padding: 5px;
+    background-color:#008000;
+    color: white;
+    border: black solid 1px;
+    box-shadow: 10px 10px 5px -8px rgba(0,0,0,0.75);
+}

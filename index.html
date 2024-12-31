@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Evento Onclick</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&family=Quicksand:wght@300..700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <nav id="navegador">
+        <a href="#"><h1>Petlopedia</h1></a>
+        <div>
+            <input type="text" placeholder="Buscar mascotas" id="searchbar">
+        </div>
+        <button id="login" class="button" onclick="cerrar_sesion(this)">Iniciar Sesión</button>
+    </nav>
+    <main id="contenedor">
+        <section class="izquierda">
+            <div class="item">
+                <h3 class="nombre">Gato Atigrado</h3>
+                <p class="tipo margen">sustantivo</p>
+                <p class="margen">Plural: Gatos Atigrados.</p>
+                <p class="descripcion margen">Un gato con un pelaje distintivo que presenta rayas, puntos o patrones en remolino. Usualmente con una marca en forma de "M" en su frente.</p>
+                <button class="megusta button" onclick="me_gusta()"><p class="contadores contador1">22</p> me gusta</button>
+            </div>
+            <div class="item">
+                <h3 class="nombre1">Golden Retriever</h3>
+                <p class="tipo margen">sustantivo</p>
+                <p class="margen">Plural: Golden Retrievers.</p>
+                <p class="descripcion margen">Una raza de perro amistosa, inteligente y devota. Conocida por su pelaje dorado y su habilidad para recuperar objetos sin dañarlos.</p>
+                <button class="megusta button" onclick="me_gusta1()"><p class="contadores contador2">45</p> me gusta</button>
+            </div>
+        </section>
+        <section class="derecha">
+            <div class="agregar">
+                <p>Petlopedia está definida por TI</p>
+                <button id="agregardef" class="button" onclick="eliminar_elemento(this)">Agregar Definición</button>
+            </div>
+        </section>
+    </main>
+
+    <script src="js/script.js"></script>
+</body>
+</html>
